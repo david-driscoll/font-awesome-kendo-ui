@@ -1,0 +1,327 @@
+.k-icon {
+  background-image: none;
+  text-indent: 0;
+  font-size: 1em;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+}
+.k-icon:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+  width: 16px;
+  height: 16px;
+  padding-top: 0.55em;
+}
+.k-numerictextbox .k-icon:before {
+  height: 11px;
+  padding-top: 5px;
+}
+.k-calendar .k-icon {
+  vertical-align: middle;
+}
+.k-calendar .k-icon:before {
+  padding-top: 9px;
+}
+.k-slider .k-button .k-icon {
+  vertical-align: middle;
+}
+.k-panelbar-expand,
+.k-panelbar-collapse {
+  top: 6px;
+  right: 6px;
+}
+.k-i-arrow-n:before {
+  content: "\f0d8";
+}
+.k-i-arrow-e:before {
+  content: "\f0da";
+}
+.k-i-arrow-w .k-rtl:before {
+  content: "\f0da";
+}
+.k-i-arrow-s:before {
+  content: "\f0d7";
+}
+.k-i-arrow-w:before {
+  content: "\f0d9";
+}
+.k-i-arrow-e .k-rtl:before {
+  content: "\f0d9";
+}
+.k-i-seek-n:before {
+  content: "\f102";
+}
+.k-i-seek-e:before {
+  content: "\f101";
+}
+.k-i-seek-w .k-rtl:before {
+  content: "\f101";
+}
+.k-i-seek-s:before {
+  content: "\f103";
+}
+.k-i-seek-w:before {
+  content: "\f100";
+}
+.k-i-seek-e .k-rtl:before {
+  content: "\f100";
+}
+.k-si-arrow-n:before {
+  content: "\f106";
+}
+.k-si-arrow-e:before {
+  content: "\f105";
+}
+.k-si-arrow-s:before {
+  content: "\f107";
+}
+.k-si-arrow-w:before {
+  content: "\f104";
+}
+.k-i-arrowhead-n:before {
+  content: "\f077";
+}
+.k-i-arrowhead-e:before {
+  content: "\f054";
+}
+.k-i-arrowhead-s:before {
+  content: "\f078";
+}
+.k-i-arrowhead-w:before {
+  content: "\f053";
+}
+.k-i-expand:before,
+.k-plus:before,
+.k-plus-disabled:before {
+  content: "\f067";
+}
+.k-i-expand-w:before,
+.k-rtl .k-i-expand:before,
+.k-rtl .k-plus:before,
+.k-rtl .k-plus-disabled:before {
+  content: "\f067";
+}
+.k-i-collapse:before,
+.k-minus:before,
+.k-minus-disabled:before {
+  content: "\f068";
+}
+.k-i-collapse-w:before,
+.k-rtl .k-i-collapse:before,
+.k-rtl .k-minus:before,
+.k-rtl .k-minus-disabled:before {
+  content: "\f068";
+}
+.k-i-pencil:before,
+.k-edit:before {
+  content: "\f040";
+}
+.k-i-close:before,
+.k-delete:before,
+.k-group-delete:before {
+  content: "\f00d";
+}
+.k-multiselect .k-delete:before {
+  content: "\f00d";
+}
+.k-multiselect .k-state-hover .k-delete:before {
+  content: "\f00d";
+}
+.k-i-tick:before,
+.k-insert:before,
+.k-update:before {
+  content: "\f058";
+}
+.k-i-cancel:before,
+.k-cancel:before,
+.k-denied:before {
+  content: "\f057";
+}
+.k-i-plus:before,
+.k-add:before {
+  content: "\f055";
+}
+.k-i-funnel:before,
+.k-filter:before {
+  content: "\f0b0";
+}
+.k-i-funnel-clear:before,
+.k-clear-filter:before {
+  content: "\f057";
+}
+.k-i-refresh:before {
+  content: "\f021";
+}
+.k-i-restore:before {
+  content: "\f047";
+}
+.k-i-maximize:before {
+  content: "\f047";
+}
+.k-i-minimize:before {
+  content: "\f141";
+}
+.k-resize-se:before {
+  content: "\f054";
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+.k-i-calendar:before {
+  content: "\f133";
+}
+.k-i-clock:before {
+  content: "\f017";
+}
+.k-si-plus:before {
+  content: "\f055";
+}
+.k-si-minus:before {
+  content: "\f056";
+}
+.k-i-search:before {
+  content: "\f002";
+}
+.k-i-custom:before {
+  content: "\f013";
+}
+.k-editor .k-i-custom:before {
+  content: "\f013";
+}
+.k-viewHtml:before {
+  content: "\f121";
+}
+.k-i-note:before,
+.k-warning:before {
+  content: "\f06a";
+}
+.k-i-sort-asc:before {
+  content: "\f160";
+}
+.k-i-sort-desc:before {
+  content: "\f161";
+}
+.k-i-columns:before {
+  content: "\f0db";
+}
+.k-file:before {
+  content: "\f15b";
+}
+.k-i-folder-add:before,
+.k-addfolder:before {
+  content: "\f114";
+}
+.k-i-folder-add:after,
+.k-addfolder:after {
+  content: "\f055";
+  font-size: 0.5em;
+  padding-top: 6px;
+  padding-left: 6px;
+}
+.k-i-folder-up:before,
+.k-goup:before {
+  content: "\f114";
+}
+.k-i-folder-up:after,
+.k-goup:after {
+  content: "\f062";
+  font-size: 0.5em;
+  padding-top: 6px;
+  padding-left: 6px;
+}
+.k-bold:before {
+  content: "\f032";
+}
+.k-italic:before {
+  content: "\f033";
+}
+.k-underline:before {
+  content: "\f0cd";
+}
+.k-strikethrough:before {
+  content: "\f0cc";
+}
+.k-justifyLeft:before {
+  content: "\f036";
+}
+.k-justifyCenter:before {
+  content: "\f037";
+}
+.k-justifyRight:before {
+  content: "\f038";
+}
+.k-justifyFull:before {
+  content: "\f039";
+}
+.k-insertUnorderedList:before {
+  content: "\f0ca";
+}
+.k-insertOrderedList:before {
+  content: "\f0cb";
+}
+.k-indent:before,
+.k-rtl .k-outdent:before {
+  content: "\f03c";
+}
+.k-outdent:before,
+.k-rtl .k-indent:before {
+  content: "\f03b";
+}
+.k-createLink:before {
+  content: "\f0c1";
+}
+.k-unlink:before {
+  content: "\f127";
+}
+.k-insertImage:before {
+  content: "\f15b";
+}
+.k-subscript:before {
+  content: "\f12c";
+}
+.k-superscript:before {
+  content: "\f12b";
+}
+.k-upload .k-upload-files .k-delete:before,
+.k-upload .k-upload-files .k-cancel:before {
+  content: "\f05e";
+}
+.k-upload .k-fail:before {
+  content: "\f05e";
+}
+.k-retry:before {
+  content: "\f01e";
+}
+.k-si-refresh:before {
+  content: "\f021";
+}
+.k-si-tick:before,
+.k-success:before {
+  content: "\f00c";
+}
+.k-si-cancel:before {
+  content: "\f05e";
+}
+.k-imagebrowser .k-upload-button .k-add:before {
+  content: "\f067";
+}
+.k-imagebrowser .k-button-bare span.k-addfolder:before {
+  content: "\f114";
+}
+.k-imagebrowser .k-button-bare span.k-addfolder:after {
+  content: "\f055";
+  font-size: 0.5em;
+  padding-top: 6px;
+  padding-left: 6px;
+}
+.k-imagebrowser .k-button-bare span.k-delete:before {
+  content: "\f00d";
+}

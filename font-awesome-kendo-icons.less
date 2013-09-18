@@ -1,0 +1,798 @@
+@import "icons.less";
+
+.k-icon {
+    background-image: none;
+    text-indent: 0;
+    font-size: 1em;
+    
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    *margin-right: .3em;
+}
+
+.k-icon:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none;
+    width: 16px;
+    height: 16px;
+    padding-top: 0.55em;
+}
+
+// Fixup layout of the styles for these specific cases.
+// Numeric Textbox: Arrows are too low
+.k-numerictextbox .k-icon {
+    &:before {
+        height: 11px;
+        padding-top: 5px; // Arrows are too low
+    }
+}
+
+
+// Calendar (both datepicker and calendar): Arrows are to high
+.k-calendar .k-icon {
+    vertical-align: middle;
+    &:before {
+        padding-top: 9px;
+    }
+}
+
+// Slider: Arrows are to high, va = middle fixes it.
+.k-slider .k-button .k-icon {
+    vertical-align: middle;
+}
+
+// Panelbar: Arrow is to far right, and top.
+.k-panelbar-expand, .k-panelbar-collapse {
+    top: 6px;
+    right: 6px;
+}
+
+// Not sure if these are needed anymore.
+// .k-numerictextbox .k-select .k-link span.k-i-arrow-n:before {
+//     content: @caret-up;
+// }
+
+// .k-numerictextbox .k-select .k-link span.k-i-arrow-s:before {
+//     content: @caret-down;
+// }
+
+// .k-state-selected .k-i-arrow-n:before {
+//     content: @caret-up;
+// }
+
+// .k-numerictextbox .k-link.k-state-selected span.k-i-arrow-n, .k-numerictextbox .k-state-hover .k-link span.k-i-arrow-n:before {
+//     content: @caret-up;
+// }
+
+// .k-state-selected .k-i-arrow-s:before {
+//     content: @caret-down;
+// }
+
+// .k-numerictextbox .k-link.k-state-selected span.k-i-arrow-s, .k-numerictextbox .k-state-hover .k-link span.k-i-arrow-s:before {
+//     content: @caret-down;
+// }
+
+.k-i-arrow-n {
+    &:before {
+        content: @caret-up;
+    }
+}
+
+.k-i-arrow-e {
+    &:before {
+        content: @caret-right;
+    }
+}
+
+.k-i-arrow-w {
+    .k-rtl {
+        &:before {
+        content: @caret-right;
+    }
+    }
+}
+
+.k-i-arrow-s {
+    &:before {
+        content: @caret-down;
+    }
+}
+
+.k-i-arrow-w {
+    &:before {
+        content: @caret-left;
+    }
+}
+
+.k-i-arrow-e {
+    .k-rtl { &:before {
+        content: @caret-left;    }
+    }
+}
+
+.k-i-seek-n {
+    &:before {
+        content: @double-angle-up;
+    }
+}
+
+.k-i-seek-e {
+    &:before {
+        content: @double-angle-right;
+    }
+}
+
+.k-i-seek-w {
+    .k-rtl {
+        &:before {
+        content: @double-angle-right;
+    }
+    }
+}
+
+.k-i-seek-s {
+    &:before {
+        content: @double-angle-down;
+    }
+}
+
+.k-i-seek-w {
+    &:before {
+        content: @double-angle-left;
+    }
+}
+
+.k-i-seek-e {
+    .k-rtl {
+        &:before {
+        content: @double-angle-left;
+    }
+    }
+}
+
+.k-si-arrow-n {
+    &:before {
+        content: @angle-up;
+    }
+}
+
+.k-si-arrow-e {
+    &:before {
+        content: @angle-right;
+    }
+}
+
+.k-si-arrow-s {
+    &:before {
+        content: @angle-down;
+    }
+}
+
+.k-si-arrow-w {
+    &:before {
+        content: @angle-left;
+    }
+}
+
+.k-i-arrowhead-n {
+    &:before {
+        content: @chevron-up;
+    }
+}
+
+.k-i-arrowhead-e {
+    &:before {
+        content: @chevron-right;
+    }
+}
+
+.k-i-arrowhead-s {
+    &:before {
+        content: @chevron-down;
+    }
+}
+
+.k-i-arrowhead-w {
+    &:before {
+        content: @chevron-left;
+    }
+}
+
+.k-i-expand, .k-plus, .k-plus-disabled {
+    &:before {
+        content: @plus;
+    }
+}
+
+.k-i-expand-w, .k-rtl .k-i-expand, .k-rtl .k-plus, .k-rtl .k-plus-disabled {
+    &:before {
+        content: @plus;
+    }
+}
+
+.k-i-collapse, .k-minus, .k-minus-disabled {
+    &:before {
+        content: @minus;
+    }
+}
+
+.k-i-collapse-w, .k-rtl .k-i-collapse, .k-rtl .k-minus, .k-rtl .k-minus-disabled {
+    &:before {
+        content: @minus;
+    }
+}
+
+.k-i-pencil, .k-edit {
+    &:before {
+        content: @pencil;
+    }
+}
+
+.k-i-close, .k-delete, .k-group-delete {
+    &:before {
+        content: @remove;
+    }
+}
+
+.k-multiselect .k-delete {
+    &:before {
+        content: @remove;
+    }
+}
+
+.k-multiselect .k-state-hover .k-delete {
+    &:before {
+        content: @remove;
+    }
+}
+
+.k-i-tick, .k-insert, .k-update {
+    &:before {
+        content: @ok-sign;
+    }
+}
+
+.k-i-cancel, .k-cancel, .k-denied {
+    &:before {
+        content: @remove-sign;
+    }
+}
+
+.k-i-plus, .k-add {
+    &:before {
+        content: @plus-sign;
+    }
+}
+
+.k-i-funnel, .k-filter {
+    &:before {
+        content: @filter;
+    }
+}
+
+.k-i-funnel-clear, .k-clear-filter {
+    &:before {
+        content: @remove-sign;
+    }
+}
+
+.k-i-refresh {
+    &:before {
+        content: @refresh;
+    }
+}
+
+.k-i-restore {
+    &:before {
+        content: @move;
+    }
+}
+
+.k-i-maximize {
+    &:before {
+        content: @move;
+    }
+}
+
+.k-i-minimize {
+    &:before {
+        content: @ellipsis-horizontal;
+    }
+}
+
+.k-resize-se {
+    &:before {
+        content: @chevron-right;
+
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    }
+}
+
+.k-i-calendar {
+    &:before {
+        content: @calendar-empty;
+    }
+}
+
+.k-i-clock {
+    &:before {
+        content: @time;
+    }
+}
+
+.k-si-plus {
+    &:before {
+        content: @plus-sign;
+    }
+}
+
+.k-si-minus {
+    &:before {
+        content: @minus-sign;
+    }
+}
+
+.k-i-search {
+    &:before {
+        content: @search;
+    }
+}
+
+.k-i-custom {
+    &:before {
+        content: @cog;
+    }
+}
+
+.k-editor .k-i-custom {
+    &:before {
+        content: @cog;
+    }
+}
+
+.k-viewHtml {
+    &:before {
+        content: @code;
+    }
+}
+
+.k-i-insert-n, .k-insert-top {
+    &:before {
+        // Used for tree view drag and drop
+        // Not sure of an idea icon to use.
+        // Perhaps make a request to FA?
+        //content: @10, 2;
+    }
+}
+
+.k-i-insert-m, .k-insert-middle {
+    &:before {
+        // Used for tree view drag and drop
+        // Not sure of an idea icon to use.
+        // Perhaps make a request to FA?
+        //content: @10, 3;
+    }
+}
+
+.k-i-insert-s, .k-insert-bottom {
+    &:before {
+        // Used for tree view drag and drop
+        // Not sure of an idea icon to use.
+        // Perhaps make a request to FA?
+        //content: @10, 4;
+    }
+}
+
+.k-drop-hint {
+    &:before {
+        // Used for tree view drag and drop
+        // Not sure of an idea icon to use.
+        // Perhaps make a request to FA?
+        //content: @0 -326px;
+    }
+}
+
+.k-i-note, .k-warning {
+    &:before {
+        content: @exclamation-sign;
+    }
+}
+
+.k-i-sort-asc {
+    &:before {
+        content: @sort-by-attributes;
+    }
+}
+
+.k-i-sort-desc {
+    &:before {
+        content: @sort-by-attributes-alt;
+    }
+}
+
+.k-i-group {
+    &:before {
+        // No real great alternative in FA
+        // Row grouping / table grouping
+        //content: @7, 17;
+    }
+}
+
+.k-i-ungroup {
+    &:before {
+        // No real great alternative in FA
+        // Row grouping / table grouping
+        //content: @7, 18;
+    }
+}
+
+.k-i-columns {
+    &:before {
+        content: @columns;
+    }
+}
+
+.k-file {
+    &:before {
+        content: @file;
+    }
+}
+
+.k-i-folder-add, .k-addfolder {
+    &:before {
+        content: @folder-close-alt;
+    }
+    &:after {
+        content: @plus-sign;
+        font-size: 0.5em;
+        padding-top: 6px;
+        padding-left: 6px;
+    }
+}
+
+.k-i-folder-up, .k-goup {
+    &:before {
+        content: @folder-close-alt;
+    }
+    &:after {
+        content: @arrow-up;
+        font-size: 0.5em;
+        padding-top: 6px;
+        padding-left: 6px;
+    }
+}
+
+.k-bold {
+    &:before {
+        content: @bold;
+    }
+}
+
+.k-italic {
+    &:before {
+        content: @italic;
+    }
+}
+
+.k-underline {
+    &:before {
+        content: @underline;
+    }
+}
+
+.k-strikethrough {
+    &:before {
+        content: @strikethrough;
+    }
+}
+
+.k-foreColor {
+    &:before {
+        // No real good icon in FA
+        // Maybe make a request.
+        //content: @-64px -88px;
+    }
+}
+
+.k-backColor {
+    &:before {
+        // No real good icon in FA
+        // Maybe make a request.
+        // content: -64px -110px;
+    }
+}
+
+.k-justifyLeft {
+    &:before {
+        content: @align-left;
+    }
+}
+
+.k-justifyCenter {
+    &:before {
+        content: @align-center;
+    }
+}
+
+.k-justifyRight {
+    &:before {
+        content: @align-right;
+    }
+}
+
+.k-justifyFull {
+    &:before {
+        content: @align-justify;
+    }
+}
+
+.k-insertUnorderedList {
+    &:before {
+        content: @list-ul;
+    }
+}
+
+.k-insertOrderedList {
+    &:before {
+        content: @list-ol;
+    }
+}
+
+.k-indent, .k-rtl .k-outdent {
+    &:before {
+        content: @indent-right;
+    }
+}
+
+.k-outdent, .k-rtl .k-indent {
+    &:before {
+        content: @indent-left;
+    }
+}
+
+.k-createLink {
+    &:before {
+        content: @link;
+    }
+}
+
+.k-unlink {
+    &:before {
+        content: @unlink;
+    }
+}
+
+.k-insertImage {
+    &:before {
+        // Not really the best
+        // make a request?
+        content: @file;
+    }
+}
+
+.k-subscript {
+    &:before {
+        content: @subscript;
+    }
+}
+
+.k-superscript {
+    &:before {
+        content: @superscript;
+    }
+}
+
+// Slider, what do we do with you?
+// .k-slider-horizontal .k-tick {
+//     content: center -92px;
+// }
+
+// .k-slider-horizontal .k-slider-topleft .k-tick {
+//     content: center -122px;
+// }
+
+// .k-slider-horizontal .k-slider-bottomright .k-tick {
+//     content: center -152px;
+// }
+
+// .k-slider-horizontal .k-tick-large {
+//     content: center -2px;
+// }
+
+// .k-slider-horizontal .k-slider-topleft .k-tick-large {
+//     content: center -32px;
+// }
+
+// .k-slider-horizontal .k-slider-bottomright .k-tick-large {
+//     content: center -62px;
+// }
+
+// .k-slider-vertical .k-tick {
+//     content: -92px center;
+// }
+
+// .k-slider-vertical .k-slider-topleft .k-tick {
+//     content: -122px center;
+// }
+
+// .k-slider-vertical .k-slider-bottomright .k-tick {
+//     content: -152px center;
+// }
+
+// .k-slider-vertical .k-tick-large {
+//     content: -2px center;
+// }
+
+// .k-slider-vertical .k-slider-topleft .k-tick-large {
+//     content: -32px center;
+// }
+
+// .k-slider-vertical .k-slider-bottomright .k-tick-large {
+//     content: -62px center;
+// }
+
+// .k-slider-horizontal .k-first {
+//     content: 0 -92px;
+// }
+
+// .k-slider-horizontal .k-tick-large.k-first {
+//     content: 0 -2px;
+// }
+
+// .k-slider-horizontal .k-slider-topleft .k-first {
+//     content: 0 -122px;
+// }
+
+// .k-slider-horizontal .k-slider-topleft .k-tick-large.k-first {
+//     content: 0 -32px;
+// }
+
+// .k-slider-horizontal .k-slider-bottomright .k-first {
+//     content: 0 -152px;
+// }
+
+// .k-slider-horizontal .k-slider-bottomright .k-tick-large.k-first {
+//     content: 0 -62px;
+// }
+
+// .k-slider-horizontal .k-last {
+//     content: 100% -92px;
+// }
+
+// .k-slider-horizontal .k-tick-large.k-last {
+//     content: 100% -2px;
+// }
+
+// .k-slider-horizontal .k-slider-topleft .k-last {
+//     content: 100% -122px;
+// }
+
+// .k-slider-horizontal .k-slider-topleft .k-tick-large.k-last {
+//     content: 100% -32px;
+// }
+
+// .k-slider-horizontal .k-slider-bottomright .k-last {
+//     content: 100% -152px;
+// }
+
+// .k-slider-horizontal .k-slider-bottomright .k-tick-large.k-last {
+//     content: 100% -62px;
+// }
+
+// .k-slider-vertical .k-first {
+//     content: -92px 100%;
+// }
+
+// .k-slider-vertical .k-tick-large.k-first {
+//     content: -2px 100%;
+// }
+
+// .k-slider-vertical .k-slider-topleft .k-first {
+//     content: -122px 100%;
+// }
+
+// .k-slider-vertical .k-slider-topleft .k-tick-large.k-first {
+//     content: -32px 100%;
+// }
+
+// .k-slider-vertical .k-slider-bottomright .k-first {
+//     content: -152px 100%;
+// }
+
+// .k-slider-vertical .k-slider-bottomright .k-tick-large.k-first {
+//     content: -62px 100%;
+// }
+
+// .k-slider-vertical .k-last {
+//     content: -92px 0;
+// }
+
+// .k-slider-vertical .k-tick-large.k-last {
+//     content: -2px 0;
+// }
+
+// .k-slider-vertical .k-slider-topleft .k-last {
+//     content: -122px 0;
+// }
+
+// .k-slider-vertical .k-slider-topleft .k-tick-large.k-last {
+//     content: -32px 0;
+// }
+
+// .k-slider-vertical .k-slider-bottomright .k-last {
+//     content: -152px 0;
+// }
+
+// .k-slider-vertical .k-slider-bottomright .k-tick-large.k-last {
+//     content: -62px 0;
+// }
+
+.k-upload .k-upload-files .k-delete,
+.k-upload .k-upload-files .k-cancel {
+    &:before {
+        content: @ban-circle;
+    }
+}
+
+.k-upload .k-fail {
+    &:before {
+        content: @ban-circle;
+    }
+}
+
+.k-retry {
+    &:before {
+        content: @repeat;
+    }
+}
+
+.k-si-refresh {
+    &:before {
+        content: @refresh;
+    }
+}
+
+.k-si-tick, .k-success {
+    &:before {
+        content: @ok;
+    }
+}
+
+.k-si-cancel {
+    &:before {
+        content: @ban-circle;
+    }
+}
+
+.k-imagebrowser .k-upload-button .k-add {
+    &:before {
+        content: @plus;
+    }
+}
+
+.k-imagebrowser .k-button-bare span.k-addfolder {
+    &:before {
+        content: @folder-close-alt;
+    }
+    &:after {
+        content: @plus-sign;
+        font-size: 0.5em;
+        padding-top: 6px;
+        padding-left: 6px;
+    }}
+
+.k-imagebrowser .k-button-bare span.k-delete {
+    &:before {
+        content: @remove;
+    }
+}
+

@@ -1,0 +1,342 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 390,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pac	",
+				"Package Control: Install Package"
+			],
+			[
+				"pack	",
+				"Package Control: Install Package"
+			],
+			[
+				"packa	",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Development/Github/font-awesome-kendo-ui/package.json",
+		"/E/Development/sciQuest/SQUI/other_components/kendoui.web.2013.2.716.commercial/js/kendo.autocomplete.js",
+		"/E/Development/sciQuest/SQUI/_site/documentation.html",
+		"/E/Development/sciQuest/SQUI/index.html",
+		"/E/Development/sciQuest/SQUI/_layouts/component-layout.html",
+		"/E/Development/sciQuest/SQUI/_includes/nav-documentation.html",
+		"/E/Development/sciQuest/SQUI/sandbox.html",
+		"/E/Development/sciQuest/SQUI/assets/less/docs.less",
+		"/E/Development/sciQuest/SQUI/documentation.html",
+		"/E/Development/sciQuest/SQUI/_includes/nav-main.html",
+		"/E/Development/sciQuest/SQUI/_layouts/default.html",
+		"/E/Development/sciQuest/SQUI/_layouts/css-layout.html",
+		"/E/Development/sciQuest/SQUI/docs/bootstrap-components.html",
+		"/E/Development/sciQuest/SQUI/_includes/header.html",
+		"/E/Development/sciQuest/SQUI/docs/bootstrap-css.html",
+		"/E/Development/sciQuest/SQUI/docs/styles/button.html",
+		"/E/Development/sciQuest/SQUI/docs/styles/code.html",
+		"/E/Development/sciQuest/SQUI/docs/styles/form.html",
+		"/E/Development/sciQuest/SQUI/docs/styles/grid.html",
+		"/E/Development/sciQuest/SQUI/docs/styles/helper.html",
+		"/E/Development/sciQuest/SQUI/docs/styles/image.html",
+		"/E/Development/sciQuest/SQUI/docs/styles/responsive.html",
+		"/E/Development/sciQuest/SQUI/docs/styles/table.html",
+		"/E/Development/sciQuest/SQUI/docs/styles/typography.html",
+		"/E/Development/sciQuest/SQUI/docs/components/alerts.html",
+		"/E/Development/sciQuest/SQUI/docs/components/badges.html",
+		"/E/Development/sciQuest/SQUI/docs/components/breadcrumbs.html",
+		"/E/Development/sciQuest/SQUI/docs/components/button-groups.html",
+		"/E/Development/sciQuest/SQUI/docs/components/dropdowns.html",
+		"/E/Development/sciQuest/SQUI/docs/components/icons.html",
+		"/E/Development/sciQuest/SQUI/docs/components/input-groups.html",
+		"/E/Development/sciQuest/SQUI/docs/components/jumbotron.html",
+		"/E/Development/sciQuest/SQUI/docs/components/labels.html",
+		"/E/Development/sciQuest/SQUI/docs/components/list-group.html",
+		"/E/Development/sciQuest/SQUI/docs/components/media-object.html",
+		"/E/Development/sciQuest/SQUI/docs/components/navbar.html",
+		"/E/Development/sciQuest/SQUI/docs/components/navs.html",
+		"/E/Development/sciQuest/SQUI/docs/components/pageheader.html",
+		"/E/Development/sciQuest/SQUI/docs/components/pagination.html",
+		"/E/Development/sciQuest/SQUI/docs/components/panels.html",
+		"/E/Development/sciQuest/SQUI/docs/components/progress-bars.html",
+		"/E/Development/sciQuest/SQUI/docs/components/thumbnails.html",
+		"/E/Development/sciQuest/SQUI/docs/components/wells.html",
+		"/E/Development/sciQuest/SQUI/_config.yml",
+		"/E/Development/sciQuest/SQUI/styles/button.html",
+		"/E/Development/sciQuest/SQUI/bootstrap-components.html",
+		"/E/Development/sciQuest/SQUI/bootstrap-css.html",
+		"/E/Development/sciQuest/SQUI/bower.json",
+		"/E/Development/sciQuest/SQUI/css/button.html",
+		"/E/Development/sciQuest/SQUI/_layouts/component.html",
+		"/E/Development/sciQuest/SQUI/components/alerts.html",
+		"/E/Development/sciQuest/SQUI/components/badges.html",
+		"/E/Development/sciQuest/SQUI/components/breadcrumbs.html",
+		"/E/Development/sciQuest/SQUI/components/button-groups.html",
+		"/E/Development/sciQuest/SQUI/components/dropdowns.html",
+		"/E/Development/sciQuest/SQUI/components/icons.html",
+		"/E/Development/sciQuest/SQUI/components/input-groups.html",
+		"/E/Development/sciQuest/SQUI/components/jumbotron.html",
+		"/E/Development/sciQuest/SQUI/components/labels.html",
+		"/E/Development/sciQuest/SQUI/components/list-group.html",
+		"/E/Development/sciQuest/SQUI/components/media-object.html",
+		"/E/Development/sciQuest/SQUI/components/navbar.html",
+		"/E/Development/sciQuest/SQUI/components/navs.html",
+		"/E/Development/sciQuest/SQUI/components/pageheader.html",
+		"/E/Development/sciQuest/SQUI/components/pagination.html",
+		"/E/Development/sciQuest/SQUI/components/panels.html",
+		"/E/Development/sciQuest/SQUI/components/progress-bars.html",
+		"/E/Development/sciQuest/SQUI/components/thumbnails.html",
+		"/E/Development/sciQuest/SQUI/components/wells.html",
+		"/E/Development/sciQuest/SQUI/css/code.html",
+		"/E/Development/sciQuest/SQUI/css/form.html",
+		"/E/Development/sciQuest/SQUI/css/grid.html",
+		"/E/Development/sciQuest/SQUI/css/helper.html",
+		"/E/Development/sciQuest/SQUI/css/responsive.html",
+		"/E/Development/sciQuest/SQUI/css/image.html",
+		"/E/Development/sciQuest/SQUI/css/table.html",
+		"/E/Development/sciQuest/SQUI/styles/typography.html",
+		"/E/Development/sciQuest/SQUI/css/typography.html",
+		"/E/Development/sciQuest/SQUI/_includes/footer.html",
+		"/E/Development/sciQuest/SQUI/bower_components/bootstrap/css.html",
+		"/E/Development/sciQuest/SQUI/global-to-copy.html",
+		"/E/Development/sciQuest/SQUI/_layouts/css.html",
+		"/E/Development/sciQuest/SQUI/examples/example2.md",
+		"/E/Development/sciQuest/SQUI/examples/example1.md",
+		"/E/Development/sciQuest/SQUI/assets/css/main.css",
+		"/E/Development/sciQuest/SQUI/assets/less/application.less",
+		"/E/Development/sciQuest/SQUI/_examples/example2.md",
+		"/E/Development/sciQuest/SQUI/_examples/example1.md",
+		"/E/Development/sciQuest/SQUI/_layouts/home.html",
+		"/E/Development/sciQuest/SQUI/package.json",
+		"/E/Development/sciQuest/SQUI/docs/_config.yml",
+		"/E/Development/sciQuest/SQUI/docs/_posts/2013-09-14-welcome-to-jekyll.markdown",
+		"/E/Development/sciQuest/SQUI/docs/_site/css/main.css",
+		"/E/Development/sciQuest/SQUI/docs/css/syntax.css",
+		"/E/Development/sciQuest/SQUI/docs/_includes/header.html",
+		"/E/Development/Util/PowerShell/setup.ps1",
+		"/E/Development/Util/PowerShell/profile.ps1",
+		"/E/Development/sciQuest/SQUI/bower_components/bootstrap/index.html",
+		"/E/Development/sciQuest/SQUI/templates/index.html",
+		"/E/Development/sciQuest/SQUI/docs/index.html",
+		"/E/Development/sciQuest/SQUI/_posts/2013-09-14-welcome-to-jekyll.markdown",
+		"/E/Development/sciQuest/SQUI/contents/index.md",
+		"/E/Development/sciQuest/SQUI/config.json",
+		"/E/Development/sciQuest/SQUI/install.bat",
+		"/E/Development/sciQuest/custom-bootstrap/README.md",
+		"/E/Development/sciQuest/UXPrototype-2/README.md",
+		"/E/Development/sciQuest/UXPrototype-2/install.bat",
+		"/E/Development/sciQuest/UXPrototype-2/server.bat",
+		"/E/Development/Util/PowerShell/updater.ps1"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"E:\\Development\\sciQuest\\SQUI",
+			"E:\\Development\\sciQuest\\SQUI\\css",
+			"E:\\Development\\sciQuest\\SQUI\\components",
+			"E:\\Development\\sciQuest\\SQUI\\css",
+			"E:\\Development\\sciQuest\\SQUI\\components",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ngmodelcontroller",
+			".fill",
+			"fill",
+			"bs-",
+			"base_url: ../",
+			"---",
+			"layout: component",
+			"layout: css",
+			"<!-- (.*?)\\n(.*?===========)",
+			"<!-- (.*?)\\n",
+			"\ngroup: Components",
+			"base_url: ../",
+			"layout: default",
+			"base_url"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"base_url: ../../",
+			"layout: component-layout",
+			"layout: css-layout",
+			"---\nlayout: css\ntitle: $1\nbase_url: ../\n---\n<!-- $1$2",
+			"---\nlayout: css\ntitle: $1\nbase_url: ../\n---\n<!-- $1",
+			"",
+			"base_url: ../\ngroup: Components",
+			"layout: component"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "font-awesome-kendo-ui.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
