@@ -1,13 +1,16 @@
 {
   "name": "font-awesome-kendo-ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Use font-awesome and kendo-ui in glorious harmonization!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "BSD-2-Clause",
+  "author": "David Driscoll <david.driscoll@gmail.com>",
+  "license": {
+    "type": "MIT License",
+    "url": "http://opensource.org/licenses/mit-license.html"
+  },
   "devDependencies": {
     "less": "~1.4.2",
     "grunt-contrib-less": "~0.7.0",
